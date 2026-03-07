@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/App/Inc/app_tasks.h" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/App/Inc/app_ui.h" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/App/Src/app_tasks.c" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/App/Src/app_ui.c" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/Core/Src/main.c" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/Driver/Inc/drv_oled.h" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/Driver/Inc/drv_oled_data.h" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/Driver/Src/drv_oled.c" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/Driver/Src/drv_oled_data.c" charset="GB2312" />
+  </component>
+</project>
