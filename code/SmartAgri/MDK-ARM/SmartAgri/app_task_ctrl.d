@@ -41,3 +41,4 @@ smartagri\app_task_ctrl.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uar
 smartagri\app_task_ctrl.o: ../BSP/Inc/bsp_buzz.h
 smartagri\app_task_ctrl.o: ../Core/Inc/tim.h
 smartagri\app_task_ctrl.o: ../Core/Inc/main.h
+smartagri\app_task_ctrl.o: ../Service/Inc/svc_alarm.h

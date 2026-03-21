@@ -92,12 +92,16 @@ static void draw_status(const app_snapshot_t *snap)
 
 static void draw_info(const app_snapshot_t *snap)
 {
+    const char *wifi_str;
+    const char *mqtt_str;
+
+    wifi_str = (snap->net.wifi_ok != 0U) ? "OK " : "BAD";
+    mqtt_str = (snap->net.mqtt_ok != 0U) ? "OK " : "BAD";
+
     draw_title("INFO");
-    OLED_Printf(0, UI_Y1, OLED_8X16, "SmartAgri RTOS");
-    OLED_Printf(0, UI_Y2, OLED_8X16, "UP:%lu s",
-                (unsigned long)snap->uptime_s);
-    OLED_Printf(0, UI_Y3, OLED_8X16, "SEQ:%lu",
-                (unsigned long)snap->seq);
+    OLED_Printf(0, UI_Y1, OLED_8X16, "UP:%lu s", (unsigned long)snap->uptime_s);
+    OLED_Printf(0, UI_Y2, OLED_8X16, "W:%s M:%s", (char *)wifi_str, (char *)mqtt_str);
+    OLED_Printf(0, UI_Y3, OLED_8X16, "SEQ:%lu", (unsigned long)snap->seq);
 }
 
 void svc_ui_init(void)
