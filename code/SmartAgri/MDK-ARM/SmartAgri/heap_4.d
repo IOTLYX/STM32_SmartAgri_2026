@@ -1,0 +1,13 @@
+smartagri\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+smartagri\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+smartagri\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+smartagri\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+smartagri\heap_4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+smartagri\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+smartagri\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+smartagri\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+smartagri\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+smartagri\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+smartagri\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+smartagri\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+smartagri\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

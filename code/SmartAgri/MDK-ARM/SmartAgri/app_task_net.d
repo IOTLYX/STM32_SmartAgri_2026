@@ -1,0 +1,9 @@
+smartagri\app_task_net.o: ..\APP\Src\app_task_net.c
+smartagri\app_task_net.o: ../APP/Inc/app_task_net.h
+smartagri\app_task_net.o: ../APP/Inc/app_data.h
+smartagri\app_task_net.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+smartagri\app_task_net.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+smartagri\app_task_net.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+smartagri\app_task_net.o: ../Common/Inc/app_types.h
+smartagri\app_task_net.o: ../Common/Inc/app_cfg.h
+smartagri\app_task_net.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

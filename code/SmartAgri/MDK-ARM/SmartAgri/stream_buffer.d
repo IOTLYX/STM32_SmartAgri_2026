@@ -1,0 +1,14 @@
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+smartagri\stream_buffer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+smartagri\stream_buffer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+smartagri\stream_buffer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+smartagri\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+smartagri\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h

@@ -1,8 +1,29 @@
 #include "bsp_log.h"
+#include <stdarg.h>
 #include <stdio.h>
 #include <string.h>
 
 static UART_HandleTypeDef *s_huart = NULL;
+
+static uint16_t bsp_strnlen_u16(const char *s, uint16_t max_len)
+{
+    uint16_t i;
+
+    if (s == NULL)
+    {
+        return 0U;
+    }
+
+    for (i = 0U; i < max_len; i++)
+    {
+        if (s[i] == '\0')
+        {
+            break;
+        }
+    }
+
+    return i;
+}
 
 static void _uart_send(const uint8_t *data, uint16_t len)
 {
@@ -55,10 +76,10 @@ void bsp_log_print_level(char level, const char *fmt, ...)
     va_end(ap);
 
     if (n <= 0) {
-        _uart_send((const uint8_t *)buf, (uint16_t)strnlen(buf, sizeof(buf)));
+        _uart_send((const uint8_t *)buf, bsp_strnlen_u16(buf, (uint16_t)sizeof(buf)));
         return;
     }
 
-    uint16_t len_total = (uint16_t)strnlen(buf, sizeof(buf));
+    uint16_t len_total = bsp_strnlen_u16(buf, (uint16_t)sizeof(buf));
     _uart_send((const uint8_t *)buf, len_total);
 }

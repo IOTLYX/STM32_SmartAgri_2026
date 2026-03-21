@@ -1,0 +1,11 @@
+smartagri\svc_ui.o: ..\Service\Src\svc_ui.c
+smartagri\svc_ui.o: ../Service/Inc/svc_ui.h
+smartagri\svc_ui.o: ../APP/Inc/app_data.h
+smartagri\svc_ui.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+smartagri\svc_ui.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+smartagri\svc_ui.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+smartagri\svc_ui.o: ../Common/Inc/app_types.h
+smartagri\svc_ui.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+smartagri\svc_ui.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+smartagri\svc_ui.o: ../Driver/Inc/drv_oled.h
+smartagri\svc_ui.o: ../Driver/Inc/drv_oled_data.h

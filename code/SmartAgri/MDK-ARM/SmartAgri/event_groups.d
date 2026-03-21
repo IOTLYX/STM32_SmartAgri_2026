@@ -1,0 +1,15 @@
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+smartagri\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+smartagri\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+smartagri\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+smartagri\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+smartagri\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

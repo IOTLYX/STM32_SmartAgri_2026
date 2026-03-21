@@ -1,0 +1,12 @@
+smartagri\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c
+smartagri\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+smartagri\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+smartagri\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+smartagri\port.o: ../Core/Inc/FreeRTOSConfig.h
+smartagri\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+smartagri\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+smartagri\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+smartagri\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+smartagri\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+smartagri\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+smartagri\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
