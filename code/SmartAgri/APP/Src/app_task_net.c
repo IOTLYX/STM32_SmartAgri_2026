@@ -25,6 +25,15 @@ void netTaskStart(void *argument)
     bsp_log_init(&huart1);
     svc_net_init(&huart2, &huart1);
 
+    /* netTask 首次运行先延时 3000ms */
+    static uint8_t s_net_boot_wait_done = 0U;
+
+    if (s_net_boot_wait_done == 0U)
+    {
+        s_net_boot_wait_done = 1U;
+        osDelay(1000U);
+    }
+
     for (;;)
     {
         if ((net.wifi_ok == 0U) || (net.mqtt_ok == 0U))
